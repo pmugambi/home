@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://pmugambi.github.io/home/sitemap.xml
+Sitemap: https://pmugambi.github.io/sitemap.xml
