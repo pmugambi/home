@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2023-12-21 16:51:00-0000
 inline: true
 related_posts: false
 ---
 
-Let's see if this will appear on the page.
+Paper accepted for presentation at AMIA informatics symposium 2024.
