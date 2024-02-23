@@ -1,9 +1,6 @@
-# al-folio
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[maintainers]: https://img.shields.io/badge/maintainers-4-success.svg 'Number of maintainers'
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+# Purity's personal website
 
-[![deploy](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml)
+<!-- [![deploy](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml)
 [![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
 [![GitHub contributors](https://img.shields.io/github/contributors/alshedivat/al-folio.svg)](https://github.com/alshedivat/al-folio/graphs/contributors/)
 [![Maintainers][maintainers]](#maintainers)
@@ -14,14 +11,13 @@
 
 [![Docker Image Version](https://img.shields.io/docker/v/amirpourmand/al-folio?sort=semver&label=docker%20image&color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
 [![Docker Image Size](https://img.shields.io/docker/image-size/amirpourmand/al-folio?sort=date&label=docker%20image%20size&color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
-[![Docker Pulls](https://img.shields.io/docker/pulls/amirpourmand/al-folio?color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
+[![Docker Pulls](https://img.shields.io/docker/pulls/amirpourmand/al-folio?color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio) -->
 
-A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.
-If you like the theme, give it a star!
+A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics, using the al-folio template.
 
-[![Preview](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
+<!-- [![Preview](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/) -->
 
-## User community
+<!-- ## User community
 
 The vibrant community of **al-folio** users is growing!
 Academics around the world use this theme for their homepages, blogs, lab pages, as well as webpages for courses, workshops, conferences, meetups, and more.
@@ -199,9 +195,9 @@ Workshop on Diffusion Models (NeurIPS: <a href="https://diffusionworkshop.github
   - [Contributing](#contributing)
     - [Maintainers](#maintainers)
     - [All Contributors](#all-contributors)
-  - [License](#license)
+  - [License](#license) -->
 
-## Getting started
+<!-- ## Getting started -->
 
 Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
 Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
@@ -222,7 +218,7 @@ $ cd <your-repo-name>
 
 ---
 
-#### Local setup using Docker (Recommended)
+<!-- #### Local setup using Docker (Recommended) -->
 Using Docker to install Jekyll and Ruby dependencies is the easiest way.
 
 You need to take the following steps to get `al-folio` up and running on your local machine:
@@ -257,7 +253,7 @@ $ docker compose up --build
 
 ---
 
-#### Local Setup (Legacy)
+<!-- #### Local Setup (Legacy) -->
 
 Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), and also [Python](https://www.python.org/) and [pip](https://pypi.org/project/pip/) (*hint: for ease of managing python packages, consider using a virtual environment, like [venv](https://docs.python.org/pt-br/3/library/venv.html) or [conda](https://docs.conda.io/en/latest/). If you will use only `jupyter`, you can use [pipx](https://pypa.github.io/pipx/)*).
 
@@ -273,7 +269,7 @@ After you are done, **commit** your final changes.
 
 ---
 
-#### Deployment
+<!-- #### Deployment -->
 
 Deploying your website to [GitHub Pages](https://pages.github.com/) is the most popular option.
 Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0.3.5), **al-folio** will automatically re-deploy your webpage each time you push new changes to your repository! :sparkles:
@@ -334,7 +330,7 @@ which will replace the css files in the `_site/assets/css/` folder with the purg
 
 <details><summary>(click to expand) <strong>Deployment to a separate repository (advanced users only):</strong></summary>
 
-**Note:** Do not try using this method unless you know what you are doing (make sure you are familiar with [publishing sources](https://help.github.com/en/github/working-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)). This approach allows to have the website's source code in one repository and the deployment version in a different repository.
+<!-- **Note:** Do not try using this method unless you know what you are doing (make sure you are familiar with [publishing sources](https://help.github.com/en/github/working-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)). This approach allows to have the website's source code in one repository and the deployment version in a different repository.
 
 Let's assume that your website's publishing source is a `publishing-source` subdirectory of a git-versioned repository cloned under `$HOME/repo/`.
 For a user site this could well be something like `$HOME/<user>.github.io`.
@@ -364,13 +360,13 @@ In its default configuration, al-folio will copy the top-level `README.md` to th
 
 **Note:** Do _not_ run `jekyll clean` on your publishing source repo as this will result in the entire directory getting deleted, irrespective of the content of `keep_files` in `_config.yml`.
 
-</details>
+</details> -->
 
 ---
 
 #### Upgrading from a previous version
 
-If you installed **al-folio** as described above, you can configure a [GitHub action](https://github.com/AndreasAugustin/actions-template-sync) to automatically sync your repository with the latest version of the theme.
+<!-- If you installed **al-folio** as described above, you can configure a [GitHub action](https://github.com/AndreasAugustin/actions-template-sync) to automatically sync your repository with the latest version of the theme.
 
 Go to Settings -> Actions -> General -> Workflow permissions, give Read and write permissions to GitHub Actions, check "Allow GitHub Actions to create and approve pull requests", and save your changes.
 
@@ -408,18 +404,18 @@ Another option is to manually update your code by following the steps below:
 $ git remote add upstream https://github.com/alshedivat/al-folio.git
 $ git fetch upstream
 $ git rebase v0.9.0
-```
+``` -->
 
-If you have extensively customized a previous version, it might be trickier to upgrade.
+<!-- If you have extensively customized a previous version, it might be trickier to upgrade.
 You can still follow the steps above, but `git rebase` may result in merge conflicts that must be resolved.
 See [git rebase manual](https://help.github.com/en/github/using-git/about-git-rebase) and how to [resolve conflicts](https://help.github.com/en/github/using-git/resolving-merge-conflicts-after-a-git-rebase) for more information.
 If rebasing is too complicated, we recommend re-installing the new version of the theme from scratch and port over your content and changes from the previous version manually.
 
----
+--- -->
 
 ### FAQ
 
-Here are some frequently asked questions.
+<!-- Here are some frequently asked questions.
 If you have a different question, please ask using [Discussions](https://github.com/alshedivat/al-folio/discussions/categories/q-a).
 
 1. **Q:** After I create a new repository from this template and setup the repo, I get a deployment error.
@@ -466,11 +462,11 @@ If you have a different question, please ask using [Discussions](https://github.
    without meaningful words (i.e. only [stop words](https://en.wikipedia.org/wiki/Stop_words)) or even
    [specific characters](https://github.com/jekyll/classifier-reborn/issues/194) you used in your posts. Also, the calculus for similar posts are
    made for every `post`, which means every page that uses `layout: post`, including the announcements. To change this behavior, simply add
-   `related_posts: false` to the front matter of the page you don't want to display related posts on.
+   `related_posts: false` to the front matter of the page you don't want to display related posts on. -->
 
 ## Features
 
-### Publications
+<!-- ### Publications
 
 Your publications' page is generated automatically from your BibTex bibliography.
 Simply edit `_bibliography/papers.bib`.
@@ -486,9 +482,9 @@ In publications, the author entry for yourself is identified by string array `sc
 scholar:
   last_name: [Einstein]
   first_name: [Albert, A.]
-```
+``` -->
 
-If the entry matches one form of the last names and the first names, it will be underlined.
+<!-- If the entry matches one form of the last names and the first names, it will be underlined.
 Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
 The co-author data format in `_data/coauthors.yml` is as follows,
 
@@ -511,17 +507,17 @@ The co-author data format in `_data/coauthors.yml` is as follows,
 
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
-```
+``` -->
 
-If the entry matches one of the combinations of the last names and the first names, it will be highlighted and linked to the url provided.
+<!-- If the entry matches one of the combinations of the last names and the first names, it will be highlighted and linked to the url provided.
 
-</details>
+</details> -->
 
-<details><summary>(click to expand) <strong>Buttons (through custom bibtex keywords):</strong></summary>
+<!-- <details><summary>(click to expand) <strong>Buttons (through custom bibtex keywords):</strong></summary>
 
-There are several custom bibtex keywords that you can use to affect how the entries are displayed on the webpage:
+There are several custom bibtex keywords that you can use to affect how the entries are displayed on the webpage: -->
 
-- `abbr`: Adds an abbreviation to the left of the entry. You can add links to these by creating a venue.yaml-file in the _data folder and adding entries that match.
+<!-- - `abbr`: Adds an abbreviation to the left of the entry. You can add links to these by creating a venue.yaml-file in the _data folder and adding entries that match.
 - `abstract`: Adds an "Abs" button that expands a hidden text field when clicked to show the abstract text
 - `arxiv`: Adds a link to the Arxiv website (Note: only add the arxiv identifier here - the link is generated automatically)
 - `bibtex_show`: Adds a "Bib" button that expands a hidden text field with the full bibliography entry
@@ -536,7 +532,7 @@ There are several custom bibtex keywords that you can use to affect how the entr
 - `altmetric`: Adds an [Altmetric](https://www.altmetric.com/) badge (Note: if DOI is provided just use `true`, otherwise only add the altmetric identifier here - the link is generated automatically)
 - `dimensions`: Adds a [Dimensions](https://www.dimensions.ai/) badge (Note: if DOI or PMID is provided just use `true`, otherwise only add the Dimensions' identifier here - the link is generated automatically)
 
-You can implement your own buttons by editing the bib.html file.
+You can implement your own buttons by editing the bib.html file. -->
 
 </details>
 
@@ -544,7 +540,7 @@ You can implement your own buttons by editing the bib.html file.
 
 ### Collections
 
-This Jekyll theme implements `collections` to let you break up your work into categories.
+<!-- This Jekyll theme implements `collections` to let you break up your work into categories.
 The theme comes with two default collections: `news` and `projects`.
 Items from the `news` collection are automatically displayed on the home page.
 Items from the `projects` collection are displayed on a responsive grid on projects page.
@@ -568,9 +564,9 @@ The theme allows you to create blog posts in the [distill.pub](https://distill.p
 
 For more details on how to create distill-styled posts using `<d-*>` tags, please refer to [the example](https://alshedivat.github.io/al-folio/blog/2021/distill/).
 
-#### Full support for math & code
+#### Full support for math & code -->
 
-**al-folio** supports fast math typesetting through [MathJax](https://www.mathjax.org/) and code syntax highlighting using [GitHub style](https://github.com/jwarby/jekyll-pygments-themes):
+<!-- **al-folio** supports fast math typesetting through [MathJax](https://www.mathjax.org/) and code syntax highlighting using [GitHub style](https://github.com/jwarby/jekyll-pygments-themes):
 
 <p align="center">
 <a href="https://alshedivat.github.io/al-folio/blog/2015/math/" target="_blank"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/math-screenshot.png" width=400></a>
@@ -603,7 +599,7 @@ You may also use the following codes for displaying this in any other pages.
 
 ```html
 <!-- code for GitHub users -->
-{% if site.data.repositories.github_users %}
+<!-- {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
     {% include repository/repo_user.html username=user %}
@@ -612,7 +608,7 @@ You may also use the following codes for displaying this in any other pages.
 {% endif %}
 
 <!-- code for GitHub trophies -->
-{% if site.repo_trophies.enabled %}
+<!-- {% if site.repo_trophies.enabled %}
 {% for user in site.data.repositories.github_users %}
   {% if site.data.repositories.github_users.size > 1 %}
   <h4>{{ user }}</h4>
@@ -621,21 +617,21 @@ You may also use the following codes for displaying this in any other pages.
   {% include repository/repo_trophies.html username=user %}
   </div>
 {% endfor %}
-{% endif %}
+{% endif %} -->
 
 <!-- code for GitHub repositories -->
-{% if site.data.repositories.github_repos %}
+<!-- {% if site.data.repositories.github_repos %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}
     {% include repository/repo.html repository=repo %}
   {% endfor %}
 </div>
 {% endif %}
-```
+``` -->
 
 #### Theming
 
-A variety of beautiful theme colors have been selected for you to choose from.
+<!-- A variety of beautiful theme colors have been selected for you to choose from.
 The default is purple, but you can quickly change it by editing the
 `--global-theme-color` variable in the `_sass/_themes.scss` file.
 Other color variables are listed there as well.
@@ -658,26 +654,26 @@ In both the page-specific and site-wide cases, the `og_image` variable needs to 
 
 It generates an Atom (RSS-like) feed of your posts, useful for Atom and RSS readers.
 The feed is reachable simply by typing after your homepage `/feed.xml`.
-E.g. assuming your website mountpoint is the main folder, you can type `yourusername.github.io/feed.xml`
+E.g. assuming your website mountpoint is the main folder, you can type `yourusername.github.io/feed.xml` -->
 
 #### Related posts
 
-By default, there will be a related posts section on the bottom of the blog posts.
+<!-- By default, there will be a related posts section on the bottom of the blog posts.
 These are generated by selecting the `max_related` most recent posts that share at least `min_common_tags` tags with the current post.
 If you do not want to display related posts on a specific post, simply add `related_posts: false` to the front matter of the post.
-If you want to disable it for all posts, simply set `enabled` to false in the `related_blog_posts` section in `_config.yml`.
+If you want to disable it for all posts, simply set `enabled` to false in the `related_blog_posts` section in `_config.yml`. -->
 
 ## Contributing
 
-Contributions to al-folio are very welcome!
+<!-- Contributions to al-folio are very welcome!
 Before you get started, please take a look at [the guidelines](CONTRIBUTING.md).
 
 If you would like to improve documentation, add your webpage to the list below, or fix a minor inconsistency or bug, please feel free to send a PR directly to `master`.
-For more complex issues/bugs or feature requests, please open an issue using the appropriate template.
+For more complex issues/bugs or feature requests, please open an issue using the appropriate template. -->
 
 ### Maintainers
 
-Our most active contributors are welcome to join the maintainers team.
+<!-- Our most active contributors are welcome to join the maintainers team.
 If you are interested, please reach out!
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -692,7 +688,7 @@ If you are interested, please reach out!
       <td align="center" valign="top" width="14.28%"><a href="https://george-gca.github.io/"><img src="https://avatars.githubusercontent.com/u/31376482?v=4" width="100px;" alt=""/><br /><sub><b>George</b></sub></a></td>
     </tr>
   </tbody>
-</table>
+</table> -->
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
@@ -701,7 +697,7 @@ If you are interested, please reach out!
 
 ### All Contributors
 
-<a href="https://github.com/alshedivat/al-folio/graphs/contributors">
+<!-- <a href="https://github.com/alshedivat/al-folio/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=alshedivat/al-folio&max=36" />
 </a>
 
@@ -712,4 +708,4 @@ Made with [contrib.rocks](https://contrib.rocks).
 The theme is available as open source under the terms of the [MIT License](https://github.com/alshedivat/al-folio/blob/master/LICENSE).
 
 Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license).
-Since then, it got a full re-write of the styles and many additional cool features.
+Since then, it got a full re-write of the styles and many additional cool features. -->
