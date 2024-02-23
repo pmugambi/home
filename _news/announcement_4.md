@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper accepted for presentation at AMIA informatics symposium 2024.
+Paper accepted for presentation at AMIA Informatics Symposium 2024.
