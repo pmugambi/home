@@ -18,9 +18,9 @@ news: true  # includes a list of news items
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD candidate in the<a href = "https://www.cics.umass.edu/"> Manning College of Information and Computer Science</a>, at University of Massachusetts, Amherst (UMass), working with <a href="https://www.cics.umass.edu/people/fiterau-brostean-ina">Dr. Ina Fiterau</a> in the <a href="https://groups.cs.umass.edu/infofusion/home/"> InFusion lab</a>. Prior to UMass, I worked as a software engineer at IBM Research Africa, in Nairobi, Kenya. My undergraduate degree was in Computer Science at University of Nairobi, Kenya. Full list of my education and work experience on<a href="https://drive.google.com/file/d/1W0QdmENVvyXWu5LM_DbLCd4EUSjvOmZc/view?usp=sharing"> my CV</a>.
+I am a PhD candidate in the<a href = "https://www.cics.umass.edu/"> Manning College of Information and Computer Science</a>, at University of Massachusetts, Amherst (UMass), working with <a href="https://www.cics.umass.edu/people/fiterau-brostean-ina">Dr. Ina Fiterau</a> in the <a href="https://groups.cs.umass.edu/infofusion/home/"> InFusion lab</a>. Prior to UMass, I worked as a software engineer at IBM Research Africa, in Nairobi, Kenya. My undergraduate degree was in Computer Science at University of Nairobi, Kenya. Full list of my education and work experience on<a href="https://drive.google.com/file/d/1ymeYDMoblZlYs1-QLbZQivydXY3MOLcs/view?usp=drive_link"> my CV</a>.
 
-My research is at the intesection of Data Science and Healthcare. Specifically, I leverage Statistics and Machine Learning to improve health equity. To this end, I build systems that:
+My research is at the intersection of Data Science and Healthcare. Specifically, I leverage Statistics and Machine Learning to improve health equity. To this end, I build systems that:
 
   - automatically extract comprable cohorts from multiple electronic health datasets
   - determine whether there are statistically significant differences in treatment of those chorts
